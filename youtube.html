@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="general.css">
+  <link rel="stylesheet" href="sidebar.css">
+
+  <link rel="icon" href="/icons/youtube.png" type="image/icon type">
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;500;800&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <title>Youtube clone</title>
+</head>
+<body>
+
+  <!-- header flexbox olacak -->
+  <div class="header">
+
+    <div class="left-section">
+      <img class="hamburger-menu" src="/icons/hamburger-menu.svg">
+      <img class="youtube-logo" src="/icons/youtube-logo.svg">
+    </div>
+
+
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+
+      <button class="search-button">
+        <img class="search-icon" src="/icons/search.svg">
+      </button>
+      
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="/icons/voice-search-icon.svg"
+      </button>
+    </div>
+
+
+    <div class="right-section">
+      <img class="upload-icon" src="/icons/upload.svg">
+
+      <div class="notifications-icon-container">
+        <img class="notification-icon" src="/icons/notifications.svg">
+        <div class="notification-count">5</div>
+      </div>
+      
+
+      <img class="youtube-apps-icon" src="/icons/youtube-apps.svg">
+      <img class="current-user-pic" src="/icons/pp.jpg">
+    </div>
+
+  </div>
+
+
+  <div class="sidebar">
+    <div class="sidebar-link">
+      <img src="/icons/home.svg">
+      <div>Anasayfa</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="/icons/explore.svg">
+      <div>Keşfet</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="/icons/subscriptions.svg">
+      <div>Abonelikler</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="/icons/originals.svg">
+      <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="/icons/youtube-music.svg">
+      <div>Muzik</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="/icons/library.svg">
+      <div>Kitaplık</div>
+    </div>
+  </div>
+
+ 
+<!-- içerikler grid -->
+  <div class="video-grid">
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-1.jpg">
+        <div class="video-time">14:20</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="avatars/channel-1.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Önden Motorlu Ferrari Olur mu? Ferrari Portofino M
+          </p>
+          <p class="video-author">
+            Doğan Kabak ✓
+          </p>
+          <p class="video-stats">
+            91.353 görüntülenme &#183; 4 saat önce
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-2.jpg">
+        <div class="video-time">15:50</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="avatars/channel-2.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            I gave away 1200$ to roast my viewers' coding projects
+          </p>
+          <p class="video-author">
+            Frying Pan ✓
+          </p>
+          <p class="video-stats">
+            53.197 görüntüleme &#183; 6 Şub 2022
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-3.jpg">
+        <div class="video-time">11:35</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="avatars/channel-3.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            BATMAN Tarzı Garajlı 139.000.000 $'lık LA Mega Malikaneyi Gezdik!
+          </p>
+          <p class="video-author">
+            Enes Yilmazer ✓
+          </p>
+          <p class="video-stats">
+            4.718.985 görüntüleme &#183; 14 Mar 2022
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-4.jpg">
+        <div class="video-time">14:55</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="avatars/channel-4.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Tourette Sendromlu olmak I "Bugüne kadar 150'ye yakın tikim oldu"
+          </p>
+          <p class="video-author">
+            +90 ✓
+          </p>
+          <p class="video-stats">
+            242.894 görüntüleme &#183; 6 May 2022
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-5.jpg">
+        <div class="video-time">07:20</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="avatars/channel-5.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Ne dersen çizebilen DALL-E'nin yenisi çok daha şaşırtıcı
+          </p>
+          <p class="video-author">
+            Barış Özcan ✓
+          </p>
+          <p class="video-stats">
+            551.919 görüntüleme &#183; 10 Nis 2022
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-6.jpg">
+        <div class="video-time">11:10</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="avatars/channel-6.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Yerli üretim uçak: HÜRKUŞ
+          </p>
+          <p class="video-author">
+            Ümit Erdim
+          </p>
+          <p class="video-stats">
+            341.212 görüntüleme &#183; 8 May 2022
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-7.jpg">
+        <div class="video-time">14:43</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="avatars/channel-7.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            SOĞUK SAVAŞ | S3 EN’LER #1
+          </p>
+          <p class="video-author">
+            Post42 ✓
+          </p>
+          <p class="video-stats">
+            249.327 görüntüleme &#183; 7 May 2022
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-8.jpg">
+        <div class="video-time">16:32</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="avatars/channel-8.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            tadı tuzu kalmadı
+          </p>
+          <p class="video-author">
+            140journos ✓
+          </p>
+          <p class="video-stats">
+            856.262 görüntüleme &#183; 10 Nis 2022
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-9.jpg">
+        <div class="video-time">10:35</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="avatars/channel-9.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            AMD Says You’re Doing it Wrong.
+          </p>
+          <p class="video-author">
+            Linus Tech Tips ✓
+          </p>
+          <p class="video-stats">
+            679.454 görüntüleme &#183; 28 May 2022
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
